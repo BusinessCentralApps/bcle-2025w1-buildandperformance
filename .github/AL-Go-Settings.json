@@ -1,4 +1,30 @@
 {
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "incrementalBuilds": {
+    "onPush": true,
+    "onPull_Request": true,
+    "onSchedule": false,
+    "retentionDays": 60,
+    "mode": "modifiedApps"
+  },
+  "conditionalSettings": [
+    {
+      "workflows": [
+        "CICD"
+      ],
+      "settings": {
+        "workflowConcurrency": [
+          "group: ${{ github.workflow }}-${{ github.ref }}",
+          "cancel-in-progress: true"
+        ]
+      }
+    }
+  ],
+  "useProjectDependencies": true,
+  "runs-on": "ubuntu-latest",
+  "shell": "pwsh",
+  "gitHubRunner": "windows-latest",
+  "githubRunnerShell": "pwsh",
+  "generateDependencyArtifact": true,
 }
