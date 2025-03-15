@@ -26,5 +26,5 @@
   "shell": "pwsh",
   "gitHubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
-  "generateDependencyArtifact": true,
+  "generateDependencyArtifact": true
 }
