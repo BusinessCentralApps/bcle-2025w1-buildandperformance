@@ -1,0 +1,42 @@
+{
+  "id": "89a15c0b-aa68-485c-94f0-0ad2d114123d",
+  "name": "W1",
+  "publisher": "Freddy",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "470751f1-1ceb-47bd-bc70-16913859e827",
+      "name": "Common",
+      "publisher": "Freddy",
+      "version": "1.0.0.0"
+    },
+    {
+      "id": "f5576291-46e8-409e-9a0d-465962723b99",
+      "name": "Licensing",
+      "publisher": "Freddy",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "25.0.0.0",
+  "application": "25.0.0.0",
+  "runtime": "14.0",
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 61000
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
+}
