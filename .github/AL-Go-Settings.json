@@ -1,6 +1,6 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
   "incrementalBuilds": {
     "onPush": true,
     "onPull_Request": true,
@@ -26,5 +26,6 @@
   "shell": "pwsh",
   "gitHubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
-  "generateDependencyArtifact": true
+  "generateDependencyArtifact": true,
+  "templateSha": "6e5bf7752c8288a922c50393814925d794e9ec38"
 }
