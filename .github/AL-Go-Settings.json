@@ -12,7 +12,7 @@
     "Default",
     "NextMajor"
   ],
-  "preprocessorSymbols": [ "GLOBAL" ]
+  "preprocessorSymbols": [ "GLOBAL" ],
   "conditionalSettings": [
     {
       "workflows": [
