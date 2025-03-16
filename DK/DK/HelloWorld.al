@@ -6,6 +6,6 @@ pageextension 61000 CustomerListExtDK extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        // Message('Danish App, Hello World!');
+        // Message('Danish App, Hello World!!!!');
     end;
 }
