@@ -27,5 +27,6 @@
   "gitHubRunner": "windows-latest",
   "githubRunnerShell": "pwsh",
   "generateDependencyArtifact": true,
+  "versioningStrategy": 3,
   "templateSha": "a137882dc3d39f0330cc711dcf99bc0e27530c65"
 }
