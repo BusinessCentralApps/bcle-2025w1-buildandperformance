@@ -6,6 +6,6 @@ pageextension 62000 CustomerListExtIT extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        // Message('Italian app, Hello World!!!');
+        // Message('Italian app, Hello World!');
     end;
 }
