@@ -2,7 +2,7 @@
   "id": "5bbe0b35-d958-4f18-acb9-2a73493f3bf7",
   "name": "DK",
   "publisher": "Freddy",
-  "version": "2.0.0.0",
+  "version": "2.0.1.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -15,13 +15,13 @@
       "id": "470751f1-1ceb-47bd-bc70-16913859e827",
       "name": "Common",
       "publisher": "Freddy",
-      "version": "2.0.0.0"
+      "version": "2.0.1.0"
     },
     {
       "id": "89a15c0b-aa68-485c-94f0-0ad2d114123d",
       "name": "W1",
       "publisher": "Freddy",
-      "version": "2.0.0.0"
+      "version": "2.0.1.0"
     }
   ],
   "screenshots": [],
