@@ -8,6 +8,15 @@
     "retentionDays": 60,
     "mode": "modifiedApps"
   },
+  "deployToBCLE": {
+    "projects": "DK",
+    "dependencyInstallMode": "upgrade",
+    "includeTestAppsInSandboxEnvironment": true,
+    "excludeAppIds": [
+      "fce99180-46e1-472f-9e49-097cd4298b90",
+      "ba0f4b41-ce6b-403a-aff1-ad045b241979"
+    ]
+  },
   "buildModes": [
     "Default",
     "NextMajor"
