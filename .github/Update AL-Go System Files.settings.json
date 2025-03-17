@@ -1,0 +1,9 @@
+{
+    "commitOptions": {
+        "messageSuffix": "Related to AB#123456",
+        "pullRequestAutoMerge": true,
+        "pullRequestLabels": [
+            "Automation"
+        ]
+    }
+}
