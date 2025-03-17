@@ -1,6 +1,6 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/freddydk/AL-Go@deployproblem",
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@preview",
   "incrementalBuilds": {
     "onPush": true,
     "onPull_Request": true,
@@ -21,7 +21,9 @@
     "Default",
     "NextMajor"
   ],
-  "preprocessorSymbols": [ "GLOBAL" ],
+  "preprocessorSymbols": [
+    "GLOBAL"
+  ],
   "conditionalSettings": [
     {
       "workflows": [
@@ -39,7 +41,9 @@
         "main"
       ],
       "settings": {
-        "preprocessorSymbols": [ "MAIN" ]
+        "preprocessorSymbols": [
+          "MAIN"
+        ]
       }
     },
     {
@@ -49,7 +53,9 @@
       "settings": {
         "artifact": "////nextmajor",
         "versioningStrategy": 15,
-        "preprocessorSymbols": [ "NEXTMAJOR" ]
+        "preprocessorSymbols": [
+          "NEXTMAJOR"
+        ]
       }
     }
   ],
@@ -60,5 +66,5 @@
   "githubRunnerShell": "pwsh",
   "generateDependencyArtifact": true,
   "versioningStrategy": 3,
-  "templateSha": "a137882dc3d39f0330cc711dcf99bc0e27530c65"
+  "templateSha": "6e5bf7752c8288a922c50393814925d794e9ec38"
 }

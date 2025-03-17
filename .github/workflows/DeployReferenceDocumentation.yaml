@@ -30,18 +30,18 @@ jobs:
 
       - name: Initialize the workflow
         id: init
-        uses: freddydk/AL-Go/Actions/WorkflowInitialize@deployproblem
+        uses: microsoft/AL-Go/Actions/WorkflowInitialize@4dd210d3d780decee8e8b858fe216e559f7ce2bc
         with:
           shell: pwsh
 
       - name: Read settings
-        uses: freddydk/AL-Go/Actions/ReadSettings@deployproblem
+        uses: microsoft/AL-Go/Actions/ReadSettings@4dd210d3d780decee8e8b858fe216e559f7ce2bc
         with:
           shell: pwsh
 
       - name: Determine Deployment Environments
         id: DetermineDeploymentEnvironments
-        uses: freddydk/AL-Go/Actions/DetermineDeploymentEnvironments@deployproblem
+        uses: microsoft/AL-Go/Actions/DetermineDeploymentEnvironments@4dd210d3d780decee8e8b858fe216e559f7ce2bc
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
@@ -54,7 +54,7 @@ jobs:
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
 
       - name: Build Reference Documentation
-        uses: freddydk/AL-Go/Actions/BuildReferenceDocumentation@deployproblem
+        uses: microsoft/AL-Go/Actions/BuildReferenceDocumentation@4dd210d3d780decee8e8b858fe216e559f7ce2bc
         with:
           shell: pwsh
           artifacts: 'latest'
@@ -71,7 +71,7 @@ jobs:
 
       - name: Finalize the workflow
         if: always()
-        uses: freddydk/AL-Go/Actions/WorkflowPostProcess@deployproblem
+        uses: microsoft/AL-Go/Actions/WorkflowPostProcess@4dd210d3d780decee8e8b858fe216e559f7ce2bc
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
